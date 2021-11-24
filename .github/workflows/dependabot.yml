@@ -1,0 +1,9 @@
+# https://docs.github.com/actions
+
+name: Auto-merge
+
+on: pull_request_target
+
+jobs:
+  dependabot:
+    uses: korben-info/.github/.github/workflows/auto-merge.yml@main
